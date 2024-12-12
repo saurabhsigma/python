@@ -1,0 +1,12 @@
+approach:
+
+import the required module
+intialize the pyagem 
+create the functions
+    isCollision(): which tells us whether the collison has occurred or not?
+    game_over(): which returns True or false on the basis of which the code decided if the game has ended.
+    show_score(x,y):this shows the score of the player on the screen
+
+
+create an infinite loop to execute the code continuously
+
