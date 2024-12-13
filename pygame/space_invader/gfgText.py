@@ -205,7 +205,7 @@ mixer.music.load('background.mp3')
 mixer.music.play(-1)
 
 # Player setup
-player_img = pygame.image.load('spaceship.png')
+player_img = pygame.image.load('me.jpeg')
 player_img = pygame.transform.scale(player_img, (64, 64))
 player_x = 370
 player_y = 525
@@ -218,6 +218,8 @@ enemy_y = []
 enemy_change_x = []
 enemy_change_y = []
 enemy_count = 8
+
+
 
 for _ in range(enemy_count):
     enemy_images.append(pygame.image.load('alien.png'))
